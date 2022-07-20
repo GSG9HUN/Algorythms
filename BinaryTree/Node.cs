@@ -1,4 +1,4 @@
-﻿namespace BreadthFirstSearch;
+﻿namespace BinaryTree;
 
 public class Node
 {

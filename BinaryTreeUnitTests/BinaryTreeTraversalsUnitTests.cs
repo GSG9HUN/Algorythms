@@ -1,6 +1,6 @@
-﻿using BreadthFirstSearch;
+using BinaryTree;
 
-namespace BreadthFirstSearchUnitTests;
+namespace BinaryTreeUnitTests;
 
 [TestClass]
 public class TreeTraversalsUnitTest
