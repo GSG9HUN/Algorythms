@@ -17,21 +17,30 @@ public class Graph
     {
         return _data;
     }
-
+/*
     public List<Graph> GetNodes()
     {
         return _nodes;
-    }
+    }*/
 
-    public void AddNode(Graph node)
+    public void AddOutDegree(Graph node)
     {
         _outDegree.Add(node);
-        AddInDegree(node);
     }
 
 
-    private void AddInDegree(Graph node)
+    public void AddInDegree(Graph node)
     {
         _inDegree.Add(node);
+    }
+
+    public List<Graph> GetInDegree()
+    {
+        return _inDegree;
+    }
+    
+    public List<Graph> GetOutDegrees()
+    {
+        return _inDegree;
     }
 }
